@@ -1,5 +1,5 @@
 <?php get_header(); ?>
-<?php get_sidebar(); ?>
+<?php //get_sidebar(); ?>
 <section>
 <?php if (is_home()) {
 		query_posts($query_string . '&cat=-412');

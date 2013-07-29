@@ -25,8 +25,11 @@
 
 	?></title>
 <link rel="profile" href="http://gmpg.org/xfn/11" />
+<link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'template_url' ); ?>/normalize.css	" />
 <link rel="stylesheet" type="text/css" media="all" href="<?php bloginfo( 'stylesheet_url' ); ?>" />
-<link rel="apple-touch-icon" href="<?php bloginfo( 'template_url' ); ?>/dan-dare-head-ios.png"/>
+
+<link rel="apple-touch-icon" href="<?php bloginfo( 'template_url' ); ?>/dan-dare
+-head-ios.png"/>
 
 
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>" />
@@ -50,7 +53,13 @@
 <![endif]-->
 </head>
 <body <?php body_class(); ?>>
+<nav>
+	<ul class = "menu-menu">
+<?php wp_list_pages('title_li='); ?>
+</ul>
+</nav>
 <header>
 <h1><a href=<?php bloginfo('url'); ?>><?php bloginfo('name'); ?></a></h1>
 <h2><?php bloginfo('description'); ?></h2>
 </header>
+

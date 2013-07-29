@@ -1,5 +1,15 @@
+<?php
+/*
+Template Name: Home Page
+*/
+?>
 <?php get_header(); ?>
-<?php //get_sidebar(); ?>	
+<?php
+?>
+<?php //get_sidebar(); ?>
+<div class = "images">
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/book.jpg" />	
+</div>
 <section>
 <?php if ( have_posts() ) : ?>
 <?php while ( have_posts() ) : the_post(); ?>
@@ -8,6 +18,21 @@
 </h2>
 <?php the_content(); ?>
 </article>
+<aside>
+	<ul class = "services">
+	<li>
+		<h2>Restoration</h2>
+	</li>
+	<li>
+		<h2>Conservations</h2>
+	</li>
+	<li>
+		<h2>Binding</h2>
+	</li>
+	</ul>
+</aside>
+
+
 <?php endwhile; ?>
 <?php endif; ?>
 </section>
