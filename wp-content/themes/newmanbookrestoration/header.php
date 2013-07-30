@@ -54,7 +54,7 @@
 </head>
 <body <?php body_class(); ?>>
 <nav>
-	<ul class = "menu-menu">
+	<ul class= "menu-menu">
 <?php wp_list_pages('title_li='); ?>
 </ul>
 </nav>

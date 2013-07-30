@@ -22,12 +22,19 @@ Template Name: Home Page
 	<ul class = "services">
 	<li>
 		<h2>Restoration</h2>
+		<p>
+		Donec consectetur diam vitae quam suscipit facilisis. Suspendisse non aliquam justo. Nulla purus nisi, vulputate id pellentesque et, vehicula id.
+		</p>	
 	</li>
 	<li>
 		<h2>Conservations</h2>
+		<p>Aliquam laoreet ligula ac sem porta, sed consequat diam semper. Suspendisse rhoncus volutpat neque, a fringilla mauris. Nulla facilisi. Ut.
+		</p>
 	</li>
 	<li>
 		<h2>Binding</h2>
+		<p>In hac habitasse platea dictumst. Vivamus vitae tincidunt erat. Fusce leo lectus, vehicula vel nunc eu, sagittis facilisis libero. Morbi.
+		</p>
 	</li>
 	</ul>
 </aside>
