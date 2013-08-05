@@ -74,27 +74,27 @@ h1{
 	word-spacing: 0;
 	margin: 0;
 	padding: 30px 0 0;
+	line-height:0.8em;
+	text-align:center;
 }
 
-span.amp {
-   font-family:Baskerville,"Goudy Old Style","Palatino","Book Antiqua",serif;
-   
-   font-style:italic;
-}
 
-h1 a{
+ a{
 	color: inherit;
 	text-decoration: none;
+}
+
+nav a:hover{
+	text-decoration:underline;
 }
 
 header h2{
 	text-align: center;
 	font-size: 1em;
 	letter-spacing: -0.1em;
-	margin: 20px 0 0;
-	width:40%;
-	margin:30px auto;
+	margin:20px auto 20px;
 	position: relative;
+	text-transform:uppercase;
 }
 
 header h2:before, header h2:after{
@@ -104,7 +104,7 @@ header h2:before, header h2:after{
 	height:3px;
 	border-top: 1px solid lightgray;
 	border-bottom: 1px solid lightgray;
-	top:-5px;
+	top:-10px;
 	left:0;
 }
 
@@ -114,7 +114,6 @@ header h2:after{
 }
 
 .images{
-	height: 200px;
 	overflow: hidden;
 }
 
