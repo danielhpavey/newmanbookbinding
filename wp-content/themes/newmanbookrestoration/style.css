@@ -68,6 +68,10 @@ body{
 
 }
 
+p{
+	margin: 0 0 10px 0;
+}
+
 h1{
 	font-family: tangerineregular;
 	font-size: 4em;
@@ -95,6 +99,7 @@ header h2{
 	margin:20px auto 20px;
 	position: relative;
 	text-transform:uppercase;
+	max-width:540px;
 }
 
 header h2:before, header h2:after{
@@ -114,12 +119,31 @@ header h2:after{
 }
 
 .images{
-	overflow: hidden;
+	max-height:200px;
+	border-top:1px solid lightgrey;
+	border-bottom:1px solid lightgrey;
+	padding:3px 0;
+	position:relative;
 }
+
+.images div{
+	overflow: hidden;
+	max-height:200px;
+}
+
 
 .images img{
 	width: 100%;
 	vertical-align: top;
+}
+
+article{
+	padding:20px 0;
+}
+
+ul{
+	padding:0;
+
 }
 
 .menu-menu{
@@ -139,9 +163,10 @@ header h2:after{
 
 .services li{
 	display: inline-block;
-	width: 31%;
+	width: 100%;
 	border: 1px solid;
 	padding: 20px;
+	margin:0 0 20px 0;
 
 }
 
@@ -168,4 +193,52 @@ footer{
 	display: inline-block;
 	font-size: 0.8em;
 	margin: 0 10px;
+}
+
+
+
+@media only screen 
+and (min-width : 768px) {
+
+.services li{
+	width:31%;
+}
+
+header h1{
+	font-size:5em;
+}
+
+header h2{
+	width:80%;
+header h1{
+	font-size:4em;
+}	max-width:553px;
+}
+
+}
+@media only screen 
+and (min-width :1024px) {
+
+header h1{
+	font-size:3.7em;
+	text-align:left;
+}
+
+article{
+	-moz-column-count:2; /* Firefox */
+	-webkit-column-count:2; /* Safari and Chrome */
+	column-count:2;
+}
+
+
+
+}
+
+@media only screen 
+and (min-width :1280px) {
+
+header h1{
+	font-size:4em;
+}
+
 }
