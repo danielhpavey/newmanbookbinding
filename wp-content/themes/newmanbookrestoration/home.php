@@ -9,7 +9,17 @@ Template Name: Home Page
 <?php //get_sidebar(); ?>
 <div class = "images">
 <div>
-<img src = "<?php bloginfo( 'template_url' ); ?>/images/book.jpg" />	
+<ul class = "bxslider">
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/book.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/book1.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/book2.jpg" />
+</li>
+</ul>
 </div>
 </div>
 <section>
