@@ -125,11 +125,17 @@ header h2:after{
 	margin:50px 0;
 }
 
-.images div{
+.bx-wrapper{
 	overflow: hidden;
 	max-height:200px;
 	border-top: 5px solid white;
 	border-bottom: 5px solid white;
+	margin:0;
+}
+
+.bxslider{
+	padding:0;
+	margin:0;
 }
 
 

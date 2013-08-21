@@ -8,7 +8,6 @@ Template Name: Home Page
 ?>
 <?php //get_sidebar(); ?>
 <div class = "images">
-<div>
 <ul class = "bxslider">
 <li>
 <img src = "<?php bloginfo( 'template_url' ); ?>/images/book.jpg" />
@@ -20,7 +19,6 @@ Template Name: Home Page
 <img src = "<?php bloginfo( 'template_url' ); ?>/images/book2.jpg" />
 </li>
 </ul>
-</div>
 </div>
 <section>
 <?php if ( have_posts() ) : ?>
