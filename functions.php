@@ -28,5 +28,11 @@ function catch_that_image() {
   return $first_img; 
 }
 
+function your_function_name() {
+add_theme_support( 'menus' );
+}
+
+add_action( 'after_setup_theme', 'your_function_name' );
+
 
 ?>

@@ -55,9 +55,7 @@
 </head>
 <body <?php body_class(); ?>>
 <nav>
-	<ul class= "menu-menu">
-<?php wp_list_pages('title_li='); ?>
-</ul>
+<?php wp_nav_menu( array( 'menu' => 'header', 'container_class' => 'menu-header' ) ); ?>
 </nav>
 <header>
 <h1><a href=<?php bloginfo('url'); ?>><?php bloginfo('name'); ?></a></h1>
