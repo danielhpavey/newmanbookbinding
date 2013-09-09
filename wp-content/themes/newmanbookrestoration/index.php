@@ -8,8 +8,10 @@
 <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark"><?php the_title(); ?>
 </a>
 </h2>
-<p><?php the_time(__('l jS M Y', 'my-tapestry')); ?> <?php _e('', 'my-tapestry'); ?>
+<!--
+<p class = "dadate" ><?php the_time(__('l jS M Y', 'my-tapestry')); ?> <?php _e('', 'my-tapestry'); ?>
 </p>
+-->
 <?php //the_content(); ?>
 <?php the_excerpt(); ?>
 <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Read More...</a>
