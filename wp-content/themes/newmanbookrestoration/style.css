@@ -72,7 +72,7 @@ p{
 	margin: 0 0 10px 0;
 }
 
-article p:first-letter{
+article p:first-letter,.services li h2:first-letter{
 	font-family:tangerineregular;
 	float:left;
 	font-size:2.5em;
@@ -119,7 +119,7 @@ a{
 }
 
 nav a:hover{
-	text-decoration:underline;
+	border-top:3px solid #460052;
 }
 
 header h2{
@@ -190,13 +190,17 @@ ul{
 }
 
 .menu-header{
-	margin:0; 
+	margin:5px 0 0; 
 	text-align:center;
 }
 
 .menu-header  ul li{
 	display: inline;
 	padding: 0 5px;
+}
+
+.current-menu-item{
+	border-top:3px solid #780088;
 }
 
 
@@ -222,12 +226,20 @@ ul{
 }
 .services li h2{
 	text-align: center;
+	color:#780088;
+}
+
+.services li h2:first-letter{
+	float:none;
+	padding-top:5px;
 }
 
 footer{
-	border-top:1px solid lightgrey;
+	border-top:3px double lightgrey;
 	min-height: 20px;
 	margin-top:30px;
+	background: #780088;
+	color:white;
 }
 
 .footer-menu{
