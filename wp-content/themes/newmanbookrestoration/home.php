@@ -32,18 +32,18 @@ Template Name: Home Page
 	<ul class = "services">
 	<li>
 		<h2>Restoration</h2>
-		<p>
-		Donec consectetur diam vitae quam suscipit facilisis. Suspendisse non aliquam justo. Nulla purus nisi, vulputate id pellentesque et, vehicula id.
-		</p>	
+		<p>Specialist restoration and preservation service.
+		</p>
 	</li>
 	<li>
 		<h2>Conservations</h2>
-		<p>Aliquam laoreet ligula ac sem porta, sed consequat diam semper. Suspendisse rhoncus volutpat neque, a fringilla mauris. Nulla facilisi. Ut.
+		<p>
+Sympathetic to the original article be it leather, parchment, cloth or paper
 		</p>
 	</li>
 	<li>
 		<h2>Binding</h2>
-		<p>In hac habitasse platea dictumst. Vivamus vitae tincidunt erat. Fusce leo lectus, vehicula vel nunc eu, sagittis facilisis libero. Morbi.
+		<p>Bindings designed and made to customer requirements in a variety of materials with the option of gold leaf tooling to create a truly bespoke gift.
 		</p>
 	</li>
 	</ul>

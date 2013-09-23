@@ -216,6 +216,8 @@ ul{
 	border: 1px solid lightgrey;
 	padding: 20px;
 	margin:0 0 20px 0;
+	vertical-align:top;
+	min-height:250px;
 
 }
 
