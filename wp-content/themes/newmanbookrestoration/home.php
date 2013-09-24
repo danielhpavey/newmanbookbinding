@@ -10,13 +10,34 @@ Template Name: Home Page
 <div class = "images">
 <ul class = "bxslider">
 <li>
-<img src = "<?php bloginfo( 'template_url' ); ?>/images/book.jpg" />
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book01.jpg" />
 </li>
 <li>
-<img src = "<?php bloginfo( 'template_url' ); ?>/images/book1.jpg" />
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book02.jpg" />
 </li>
 <li>
-<img src = "<?php bloginfo( 'template_url' ); ?>/images/book2.jpg" />
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book03.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book04.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book05.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book06.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book07.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book08.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book09.jpg" />
+</li>
+<li>
+<img src = "<?php bloginfo( 'template_url' ); ?>/images/slideshow/book10.jpg" />
 </li>
 </ul>
 </div>
