@@ -95,6 +95,7 @@ h1{
 	padding: 30px 0 0;
 	line-height:0.8em;
 	text-align:center;
+	font-weight:200;
 }
 
 h2{
@@ -233,7 +234,6 @@ ul{
 }
 .services li h2{
 	text-align: center;
-	color:#780088;
 }
 
 .services li h2:first-letter{
