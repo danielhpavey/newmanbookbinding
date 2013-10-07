@@ -9,7 +9,7 @@ $(document).ready(function(){
 	$( '.bxslider' ).bxSlider({
 		  auto: true,
 		mode:'fade',
-		speed: 2000
+		speed: 4000
 	})
 });
 </script>
