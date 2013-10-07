@@ -54,17 +54,20 @@ Template Name: Home Page
 	<li>
 		<h2>Restoration</h2>
 		<p>Specialist restoration and preservation service.
+		<a href="<?php bloginfo('url'); ?>/services">Read More...</a>
 		</p>
 	</li>
 	<li>
 		<h2>Conservations</h2>
 		<p>
 Sympathetic to the original article be it leather, parchment, cloth or paper
+		<a href="<?php bloginfo('url'); ?>/services">Read More...</a>
 		</p>
 	</li>
 	<li>
 		<h2>Binding</h2>
 		<p>Bindings designed and made to customer requirements in a variety of materials with the option of gold leaf tooling to create a truly bespoke gift.
+		<a href="<?php bloginfo('url'); ?>/services">Read More...</a>
 		</p>
 	</li>
 	</ul>
