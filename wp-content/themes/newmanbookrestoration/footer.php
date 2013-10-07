@@ -1,7 +1,5 @@
 <footer>
-<ul class="footer-menu">
-<?php wp_list_pages('title_li='); ?>
-</ul>
+<?php wp_nav_menu( array( 'menu' => 'header', 'container_class' => 'footer-menu' ) ); ?>
 </footer>  
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
 <script>
