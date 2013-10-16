@@ -56,6 +56,10 @@ General comments (optional).
 
 * { box-sizing:border-box; }
 
+html{
+	overflow-x:hidden;
+}
+
 body{
 	color: #626262;
 	width:90%;
@@ -242,10 +246,23 @@ ul{
 
 footer{
 	border-top:3px double lightgrey;
-	min-height: 20px;
+	min-height: 50px;
 	margin-top:30px;
 	background: #780088;
 	color:white;
+	position:relative;
+}
+
+footer:before{
+	content:'';
+	border-top:3px double lightgrey;
+	position:absolute;
+	background:#780088;
+	height:100%;
+	left:-50%;
+	width:1000%;
+	z-index:-1;
+	top:-3px;
 }
 
 .footer-menu{
