@@ -14,7 +14,7 @@
 -->
 <?php //the_content(); ?>
 <?php the_excerpt(); ?>
-<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark">Read More...</a>
+<a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark" class = "readmore" ><i class="icon-bookmark-empty"></i>Read More...</a>
 <span class="categories">
 <?php if ( count( get_the_category() ) ) : ?>
 <?php printf( __( 'Categories: %2$s', 'sushi' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?>

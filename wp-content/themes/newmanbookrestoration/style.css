@@ -131,6 +131,24 @@ nav a:hover{
 	border-top:3px solid #460052;
 }
 
+.readmore{
+	color:#780088;
+	background:white;
+	padding:5px;
+	border-radius:5px;
+	transition:background 0.2s ease;
+}
+
+.readmore:hover{
+	color:white;
+	background:#780088;
+}
+
+.readmore i{
+	margin-right:6px;
+}
+	
+
 header h2{
 	text-align: center;
 	font-size: 1em;
@@ -226,7 +244,7 @@ ul{
 	padding: 20px;
 	margin:0 0 20px 0;
 	vertical-align:top;
-	min-height:250px;
+	min-height:300px;
 
 }
 
