@@ -237,6 +237,15 @@ ul{
 	text-align:justify;
 }
 
+.services:before, .services:after{
+	content:'';
+	display:table;
+}
+
+.services:after{
+	clear:both;
+}
+
 
 .services li{
 	display:block;
@@ -297,6 +306,11 @@ and (min-width : 768px) {
 
 .services li{
 	width:31%;
+	margin-left:3%;
+}
+
+.services li:first-child{
+	margin-left:0;
 }
 
 header h1{
