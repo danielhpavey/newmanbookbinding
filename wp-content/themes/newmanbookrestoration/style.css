@@ -76,7 +76,7 @@ p{
 	margin: 0 0 10px 0;
 }
 
-article p:first-letter,.services li h2:first-letter{
+.services li h2:first-letter{
 	font-family:tangerineregular;
 	float:left;
 	font-size:2.5em;
