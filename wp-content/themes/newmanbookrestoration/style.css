@@ -237,8 +237,10 @@ ul{
 	text-align:justify;
 }
 
+
 .services li{
-	display: inline-block;
+	display:block;
+	float:left;
 	width: 100%;
 	border: 1px solid lightgrey;
 	padding: 20px;
@@ -248,11 +250,6 @@ ul{
 
 }
 
-.services:after{
-	content: '';
-	display:inline-block;
-	width:100%;
-}
 .services li h2{
 	text-align: center;
 }
