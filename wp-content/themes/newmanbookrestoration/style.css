@@ -131,7 +131,9 @@ nav a:hover{
 	border-top:3px solid #460052;
 }
 
+
 .readmore{
+	position:relative;
 	color:#780088;
 	background:white;
 	padding:5px;
@@ -203,7 +205,12 @@ header h2:after{
 
 article{
 	padding:0 0 35px;
+	margin:0 auto;
 }
+
+section .home{
+	max-width:800px;
+	}
 
 .categories{
 	display:block;
