@@ -58,6 +58,7 @@ General comments (optional).
 
 html{
 	overflow-x:hidden;
+	position:relative;
 }
 
 body{
@@ -68,6 +69,7 @@ body{
 	line-height: 1.6em;
 	background: white;
 	-webkit-font-smoothing: antialiased;
+	position:relative;
 
 
 }
@@ -282,6 +284,7 @@ footer{
 	background: #780088;
 	color:white;
 	position:relative;
+	width:100%;
 }
 
 footer:before{
@@ -290,8 +293,8 @@ footer:before{
 	position:absolute;
 	background:#780088;
 	height:100%;
-	left:-50%;
-	width:1000%;
+	left:-6%;
+	width:112%;
 	z-index:-1;
 	top:-3px;
 }
