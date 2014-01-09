@@ -2,5 +2,7 @@
 wp-config.php
 wp-config.local.php
 wp-config.staging.php
+wp-content/themes/newmanbookrestoration/.sass-cache/
+
 
 

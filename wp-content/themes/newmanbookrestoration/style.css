@@ -11,362 +11,265 @@ License URI:
 
 General comments (optional).
 */
-
+@font-face {
+  font-family: 'open_sansregular';
+  src: url("fonts/OpenSans-Regular-webfont.eot");
+  src: url("fonts/OpenSans-Regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/OpenSans-Regular-webfont.woff") format("woff"), url("fonts/OpenSans-Regular-webfont.ttf") format("truetype"), url("fonts/OpenSans-Regular-webfont.svg#open_sansregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
-    font-family: 'open_sansregular';
-    src: url('fonts/OpenSans-Regular-webfont.eot');
-    src: url('fonts/OpenSans-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/OpenSans-Regular-webfont.woff') format('woff'),
-         url('fonts/OpenSans-Regular-webfont.ttf') format('truetype'),
-         url('fonts/OpenSans-Regular-webfont.svg#open_sansregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
+  font-family: 'tangerineregular';
+  src: url("fonts/tangerine_regular-webfont.eot");
+  src: url("fonts/tangerine_regular-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tangerine_regular-webfont.woff") format("woff"), url("fonts/tangerine_regular-webfont.ttf") format("truetype"), url("fonts/tangerine_regular-webfont.svg#tangerineregular") format("svg");
+  font-weight: normal;
+  font-style: normal; }
 
 @font-face {
-    font-family: 'tangerineregular';
-    src: url('fonts/tangerine_regular-webfont.eot');
-    src: url('fonts/tangerine_regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/tangerine_regular-webfont.woff') format('woff'),
-         url('fonts/tangerine_regular-webfont.ttf') format('truetype'),
-         url('fonts/tangerine_regular-webfont.svg#tangerineregular') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-
-
-
-@font-face {
-    font-family: 'tangerinebold';
-    src: url('fonts/tangerine_bold-webfont.eot');
-    src: url('fonts/tangerine_bold-webfont.eot?#iefix') format('embedded-opentype'),
-         url('fonts/tangerine_bold-webfont.woff') format('woff'),
-         url('fonts/tangerine_bold-webfont.ttf') format('truetype'),
-         url('fonts/tangerine_bold-webfont.svg#tangerinebold') format('svg');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-* { box-sizing:border-box; }
-
-html{
-	overflow-x:hidden;
-	position:relative;
-}
-
-body{
-	color: #626262;
-	width:90%;
-	margin: 0 auto;
-	font-family: open_sansregular, helvetica, arial;
-	line-height: 1.6em;
-	background: white;
-	-webkit-font-smoothing: antialiased;
-	position:relative;
-
-
-}
-
-p{
-	margin: 0 0 10px 0;
-}
-
-.services li h2:first-letter{
-	font-family:tangerineregular;
-	float:left;
-	font-size:2.5em;
-	padding:0 2px 0 0;
-}
-
-.dadate:first-letter{
-	font-family:inherit;
-	font-size:inherit;
-	float:inherit;
-	padding:inherit;
-
-}
-
-h1{
-	font-family: tangerineregular;
-	font-size: 4em;
-	word-spacing: 0;
-	margin: 0;
-	padding: 30px 0 0;
-	line-height:0.8em;
-	text-align:center;
-	font-weight:200;
-}
-
-h2{
-	-webkit-column-span:all;
-}
-
-h3{
-	font-family:tangerineregular;
-	font-size:3em;
-	margin:50px 0 20px 0;
-	font-weight:200;
-
-}
-
-h4{
-	font-size: 1.3em;
-}
-
-.entry-title{
-	margin-top:40px;
-}
-
-a{
-	color: inherit;
-	text-decoration: none;
-}
-
-nav a:hover{
-	border-top:3px solid #460052;
-}
-
-
-.readmore{
-	position:relative;
-	color:#780088;
-	background:white;
-	padding:5px;
-	border-radius:5px;
-	transition:background 0.2s ease;
-}
-
-.readmore:hover{
-	color:white;
-	background:#780088;
-}
-
-.readmore i{
-	margin-right:6px;
-}
-	
-
-header h2{
-	text-align: center;
-	font-size: 1em;
-	letter-spacing: -0.1em;
-	margin:35px auto 0;
-	position: relative;
-	text-transform:uppercase;
-	max-width:540px;
-}
-
-header h2:before, header h2:after{
-	content: '';
-	position: absolute;
-	width: 100%;
-	height:3px;
-	border-top: 1px solid lightgray;
-	border-bottom: 1px solid lightgray;
-	top:-10px;
-	left:0;
-}
-
-header h2:after{
-	top:calc(100% + 5px);
-	
-}
-
-.images{
-	border-top:1px solid lightgrey;
-	border-bottom:1px solid lightgrey;
-	position:relative;
-	margin:35px 0;
-}
-
-.bx-wrapper{
-	overflow: hidden;
-	max-height:350px;
-	border-top: 5px solid white;
-	border-bottom: 5px solid white;
-	margin:0;
-}
-
-.bxslider{
-	padding:0;
-	margin:0;
-}
-
-
-.images img{
-	width: 100%;
-	vertical-align: top;
-}
-
-article{
-	padding:0 0 35px;
-	margin:0 auto;
-}
-
-section .home{
-	max-width:800px;
-	}
-
-.categories{
-	display:block;
-	margin:30px 0 0 0;
-}
-
-ul{
-	padding:0 0 0 20px;
-	margin:0;
-
-}
-
-.menu-header{
-	margin:5px 0 0; 
-	text-align:center;
-}
-
-.menu-header  ul li{
-	display: inline;
-	padding: 0 5px;
-}
-
-.current-menu-item{
-	border-top:3px solid #780088;
-}
-
-
-.services{
-	margin: 0;
-	padding: 0;
-	text-align:justify;
-}
-
-.services:before, .services:after{
-	content:'';
-	display:table;
-}
-
-.services:after{
-	clear:both;
-}
-
-
-.services li{
-	display:block;
-	float:left;
-	width: 100%;
-	border: 1px solid lightgrey;
-	padding: 20px;
-	margin:0 0 20px 0;
-	vertical-align:top;
-	min-height:300px;
-
-}
-
-.services li h2{
-	text-align: center;
-}
-
-.services li h2:first-letter{
-	float:none;
-	padding-top:5px;
-}
-
-footer{
-	border-top:3px double lightgrey;
-	min-height: 50px;
-	margin-top:30px;
-	background: #780088;
-	color:white;
-	position:relative;
-	width:100%;
-}
-
-footer:before{
-	content:'';
-	border-top:3px double lightgrey;
-	position:absolute;
-	background:#780088;
-	height:100%;
-	left:-6%;
-	width:112%;
-	z-index:-1;
-	top:-3px;
-}
-
-.footer-menu{
-	text-align: center;
-}
-
-.footer-menu li{
-	display: inline-block;
-	font-size: 0.8em;
-	margin: 0 10px;
-}
-
-
-
-@media only screen 
-and (min-width : 768px) {
-
-.services li{
-	width:31%;
-	margin-left:3%;
-}
-
-.services li:first-child{
-	margin-left:0;
-}
-
-header h1{
-	font-size:5em;
-}
-
-header h2{
-	width:80%;
-}
-header h1{
-	font-size:4em;
-}
-
-}
-@media only screen 
-and (min-width :1024px) {
-
-header h1{
-	font-size:3.7em;
-	text-align:left;
-}
-
-article{
-/*	-moz-column-count:2;
-	-webkit-column-count:2;
-	column-count:2;
-*/
-}
-
-.menu-header{
-	text-align:right;
-}
-
-#menu-header{
-	position:absolute;
-	right:5%;
-}
-
-
-}
-
-@media only screen 
-and (min-width :1280px) {
-
-header h1{
-	font-size:4em;
-}
-
-}
+  font-family: 'tangerinebold';
+  src: url("fonts/tangerine_bold-webfont.eot");
+  src: url("fonts/tangerine_bold-webfont.eot?#iefix") format("embedded-opentype"), url("fonts/tangerine_bold-webfont.woff") format("woff"), url("fonts/tangerine_bold-webfont.ttf") format("truetype"), url("fonts/tangerine_bold-webfont.svg#tangerinebold") format("svg");
+  font-weight: normal;
+  font-style: normal; }
+
+* {
+  box-sizing: border-box; }
+
+html {
+  overflow-x: hidden;
+  position: relative; }
+
+body {
+  color: #626262;
+  width: 90%;
+  margin: 0 auto;
+  font-family: open_sansregular, helvetica, arial;
+  line-height: 1.6em;
+  background: white;
+  -webkit-font-smoothing: antialiased;
+  position: relative; }
+
+p {
+  margin: 0 0 10px 0; }
+
+.services li h2:first-letter {
+  font-family: tangerineregular;
+  float: left;
+  font-size: 2.5em;
+  padding: 0 2px 0 0; }
+
+.dadate:first-letter {
+  font-family: inherit;
+  font-size: inherit;
+  float: inherit;
+  padding: inherit; }
+
+h1 {
+  font-family: tangerineregular;
+  font-size: 4em;
+  word-spacing: 0;
+  margin: 0;
+  padding: 30px 0 0;
+  line-height: 0.8em;
+  text-align: center;
+  font-weight: 200; }
+
+h2 {
+  -webkit-column-span: all; }
+
+h3 {
+  font-family: tangerineregular;
+  font-size: 3em;
+  margin: 50px 0 20px 0;
+  font-weight: 200; }
+
+h4 {
+  font-size: 1.3em; }
+
+.entry-title {
+  margin-top: 40px; }
+
+a {
+  color: inherit;
+  text-decoration: none; }
+
+nav a:hover {
+  border-top: 3px solid #460052; }
+
+.readmore {
+  position: relative;
+  color: #780088;
+  background: white;
+  padding: 5px;
+  border-radius: 5px;
+  transition: background 0.2s ease; }
+
+.readmore:hover {
+  color: white;
+  background: #780088; }
+
+.readmore i {
+  margin-right: 6px; }
+
+header h2 {
+  text-align: center;
+  font-size: 1em;
+  letter-spacing: -0.1em;
+  margin: 35px auto 0;
+  position: relative;
+  text-transform: uppercase;
+  max-width: 540px; }
+
+header h2:before, header h2:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  border-top: 1px solid lightgray;
+  border-bottom: 1px solid lightgray;
+  top: -10px;
+  left: 0; }
+
+header h2:after {
+  top: calc(100% + 5px); }
+
+.images {
+  border-top: 1px solid lightgrey;
+  border-bottom: 1px solid lightgrey;
+  position: relative;
+  margin: 35px 0; }
+
+.bx-wrapper {
+  overflow: hidden;
+  max-height: 350px;
+  border-top: 5px solid white;
+  border-bottom: 5px solid white;
+  margin: 0; }
+
+.bxslider {
+  padding: 0;
+  margin: 0; }
+
+.images img {
+  width: 100%;
+  vertical-align: top; }
+
+article {
+  padding: 0 0 35px;
+  margin: 0 auto; }
+
+section .home {
+  max-width: 800px; }
+
+.categories {
+  display: block;
+  margin: 30px 0 0 0; }
+
+ul {
+  padding: 0 0 0 20px;
+  margin: 0; }
+
+.menu-header {
+  margin: 5px 0 0;
+  text-align: center; }
+
+.menu-header ul li {
+  display: inline;
+  padding: 0 5px; }
+
+.current-menu-item {
+  border-top: 3px solid #780088; }
+
+.services {
+  margin: 0;
+  padding: 0;
+  text-align: justify; }
+
+.services:before, .services:after {
+  content: '';
+  display: table; }
+
+.services:after {
+  clear: both; }
+
+.services li {
+  display: block;
+  float: left;
+  width: 100%;
+  border: 1px solid lightgrey;
+  padding: 20px;
+  margin: 0 0 20px 0;
+  vertical-align: top;
+  min-height: 300px; }
+
+.services li h2 {
+  text-align: center; }
+
+.services li h2:first-letter {
+  float: none;
+  padding-top: 5px; }
+
+footer {
+  border-top: 3px double lightgrey;
+  min-height: 50px;
+  margin-top: 30px;
+  background: #780088;
+  color: white;
+  position: relative;
+  width: 100%; }
+
+footer:before {
+  content: '';
+  border-top: 3px double lightgrey;
+  position: absolute;
+  background: #780088;
+  height: 100%;
+  left: -6%;
+  width: 112%;
+  z-index: -1;
+  top: -3px; }
+
+.footer-menu {
+  text-align: center; }
+
+.footer-menu li {
+  display: inline-block;
+  font-size: 0.8em;
+  margin: 0 10px; }
+
+@media only screen and (min-width: 768px) {
+  .services li {
+    width: 31%;
+    margin-left: 3%; }
+
+  .services li:first-child {
+    margin-left: 0; }
+
+  header h1 {
+    font-size: 5em; }
+
+  header h2 {
+    width: 80%; }
+
+  header h1 {
+    font-size: 4em; } }
+@media only screen and (min-width: 1024px) {
+  header h1 {
+    font-size: 3.7em;
+    text-align: left; }
+
+  article {
+    /*	-moz-column-count:2;
+    	-webkit-column-count:2;
+    	column-count:2;
+    */ }
+
+  .menu-header {
+    text-align: right; }
+
+  #menu-header {
+    position: absolute;
+    right: 5%; } }
+@media only screen and (min-width: 1280px) {
+  header h1 {
+    font-size: 4em; } }
