@@ -17,15 +17,9 @@
 <a href="https://plus.google.com/share?url=<?php the_permalink(); ?>" target = "_blank" class="WebSymbols">g</a>
 -->
 <?php the_content(); ?>
-<span class="categories">
-<?php if ( count( get_the_category() ) ) : ?>
-<?php printf( __( 'Categories: %2$s', 'sushi' ), 'entry-utility-prep entry-utility-prep-cat-links', get_the_category_list( ', ' ) ); ?>
-<?php endif; ?>
-</span>
 </article>
 <?php endwhile; ?>
 <?php endif; ?>
-<hr />
 <?php comments_template( '', true ); ?>
 </section>
 <?php get_footer(); ?>
