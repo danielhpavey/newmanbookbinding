@@ -13,6 +13,8 @@ General comments (optional).
 */
 
 
+$body-color: #626262;
+
 @font-face {
     font-family: 'open_sansregular';
     src: url('fonts/OpenSans-Regular-webfont.eot');
@@ -62,7 +64,7 @@ html{
 }
 
 body{
-	color: #626262;
+	color: $body-color;
 	width:90%;
 	margin: 0 auto;
 	font-family: open_sansregular, helvetica, arial;
