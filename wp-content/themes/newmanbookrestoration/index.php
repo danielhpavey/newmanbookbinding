@@ -13,7 +13,15 @@
 </p>
 -->
 <?php //the_content(); ?>
-<?php the_excerpt(); ?>
+<a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>">
+<?php
+the_post_thumbnail('medium'); 
+?>
+</a>
+<?php
+the_excerpt();
+ ?>
+<div style = "clear:both;"></div>
 <a href="<?php the_permalink(); ?>" title="<?php printf( esc_attr__( 'Permalink to %s', 'twentyeleven' ), the_title_attribute( 'echo=0' ) ); ?>" rel="bookmark" class = "readmore" ><i class="icon-bookmark-empty"></i>Read More...</a>
 </article>
 <?php endwhile; ?>

@@ -13,6 +13,8 @@ General comments (optional).
 */
 
 $body-color: #626262;
+$thepurple: #780088;
+
 
 @font-face {
     font-family: 'open_sansregular';
@@ -204,6 +206,12 @@ header h2:after{
 .images img{
 	width: 100%;
 	vertical-align: top;
+}
+
+.wp-post-image{
+	float:right;
+	box-shadow: 0 0 0 5px white, 0 0 0 7px $thepurple;
+	margin: 10px 0 20px 20px;
 }
 
 article{

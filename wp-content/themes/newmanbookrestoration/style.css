@@ -154,6 +154,11 @@ header h2:after {
   width: 100%;
   vertical-align: top; }
 
+.wp-post-image {
+  float: right;
+  box-shadow: 0 0 0 5px white, 0 0 0 7px #780088;
+  margin: 10px 0 20px 20px; }
+
 article {
   padding: 0 0 35px;
   margin: 0 auto; }
